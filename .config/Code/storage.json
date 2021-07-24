@@ -7,6 +7,9 @@
             },
             {
                 "folderUri": "file:///home/shanvi"
+            },
+            {
+                "fileUri": "file:///home/shanvi/Desktop/srikantWeb/index.html"
             }
         ]
     },
@@ -71,6 +74,19 @@
                                     },
                                     "enabled": true,
                                     "label": "/home/shanvi"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/shanvi/Desktop/srikantWeb/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/srikantWeb/index.html"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -412,8 +428,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "workbench.action.toggleEditorVisibility",
@@ -566,8 +581,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleMinimap",
