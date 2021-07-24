@@ -411,3 +411,21 @@ X Protocol Version 11, Revision 0
 [   224.601] (II) modeset(0): Using vrefresh ranges from config file
 [  9361.080] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-12ms), your system is too slow
 [  9361.431] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-380ms), your system is too slow
+[ 11129.655] (II) modeset(0): EDID vendor "VBX", prod id 0
+[ 11129.655] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[ 11129.655] (II) modeset(0): Using hsync ranges from config file
+[ 11129.655] (II) modeset(0): Using vrefresh ranges from config file
+[ 11130.453] (II) modeset(0): Allocate new frame buffer 640x480 stride
+[ 11130.956] (II) modeset(0): EDID vendor "VBX", prod id 0
+[ 11130.956] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[ 11130.957] (II) modeset(0): Using hsync ranges from config file
+[ 11130.957] (II) modeset(0): Using vrefresh ranges from config file
+[ 11236.212] (II) modeset(0): EDID vendor "VBX", prod id 0
+[ 11236.212] (II) modeset(0): DDCModeFromDetailedTiming: 1600x795 Warning: We only handle separate sync.
+[ 11236.212] (II) modeset(0): Using hsync ranges from config file
+[ 11236.212] (II) modeset(0): Using vrefresh ranges from config file
+[ 11236.232] (II) modeset(0): Allocate new frame buffer 1600x795 stride
+[ 11236.672] (II) modeset(0): EDID vendor "VBX", prod id 0
+[ 11236.673] (II) modeset(0): DDCModeFromDetailedTiming: 1600x795 Warning: We only handle separate sync.
+[ 11236.673] (II) modeset(0): Using hsync ranges from config file
+[ 11236.673] (II) modeset(0): Using vrefresh ranges from config file

@@ -428,7 +428,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "Show &&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleEditorVisibility",
@@ -1513,7 +1514,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 256,
+            "sideBarWidth": 220,
             "statusBarHeight": 22,
             "windowBorder": false
         }
