@@ -2,3 +2,19 @@
 [2021-07-24 12:05:04.170] [renderer1] [error] Failed to execute git
 [2021-07-24 12:12:07.592] [renderer1] [error] Failed to execute git
 [2021-07-24 12:12:28.034] [renderer1] [error] Failed to execute git
+[2021-07-24 12:30:29.202] [renderer1] [error] Error: Unable to read file '/home/shanvi/devopsIQ' (Error: Unable to read file '/home/shanvi/devopsIQ' that is actually a directory)
+    at li.doReadFileStream (vscode-file://vscode-app/snap/code/70/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:634:16951)
+    at async v.doRead (vscode-file://vscode-app/snap/code/70/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2411:39796)
+    at async v.readStream (vscode-file://vscode-app/snap/code/70/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2411:39524)
+    at async Kr.resolveFromFile (vscode-file://vscode-app/snap/code/70/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2403:101904)
+    at async o.resolve (vscode-file://vscode-app/snap/code/70/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2411:35918)
+    at async Ro.doResolveAsText (vscode-file://vscode-app/snap/code/70/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1896:70354)
+    at async Promise.all (index 1)
+    at async yr.createModel (vscode-file://vscode-app/snap/code/70/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1896:47837)
+    at async yr.resolve (vscode-file://vscode-app/snap/code/70/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1896:47556)
+    at async ca.setInput (vscode-file://vscode-app/snap/code/70/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2355:31400)
+    at async u.doSetInput (vscode-file://vscode-app/snap/code/70/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2355:131518)
+    at async u.openEditor (vscode-file://vscode-app/snap/code/70/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2355:129942)
+    at async vscode-file://vscode-app/snap/code/70/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2567:15994
+    at async vscode-file://vscode-app/snap/code/70/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2355:44235
+    at async Tt.open (vscode-file://vscode-app/snap/code/70/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2376:45807)
