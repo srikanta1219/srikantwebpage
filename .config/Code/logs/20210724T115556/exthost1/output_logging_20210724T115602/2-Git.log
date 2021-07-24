@@ -41,3 +41,8 @@ Auto packing the repository in background for optimum performance.
 See "git help gc" for manual housekeeping.
 > git check-ignore -v -z --stdin
 > git add -A -- .
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+> git remote add srikanta1219 https://github.com/srikanta1219/srikantwebpage.git
+> git add -A -- .
