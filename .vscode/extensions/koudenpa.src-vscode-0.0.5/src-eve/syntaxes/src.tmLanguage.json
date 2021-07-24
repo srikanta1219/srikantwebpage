@@ -1,0 +1,43 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "SRC",
+	"patterns": [
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#label"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.src",
+				"match": "(?i)\\b(Exit|Return|Break|Skip|Next|Switch|Case|Default|EndSw|Do|Loop|While|Until|For|ForEach|GoTo|If|Else|ElseIf|EndIf|Then)\\b"
+			},{
+				"name": "keyword.other.src",
+				"match": "(?i)\\b(Call|Continue|GameClear|GameOver|Quit|Exit|ClearEvent|RestoreEvent|Cancel|Attack|BossRank|ChangeArea|ChangeMode|ChangeParty|ChangeUnitBitmap|Charge|ClearSpecialPower|ClearStatus|Combine|Create|Destroy|Disable|Enable|Escape|ExchangeItem|Finish|Join|Land|Launch|Leave|MapAbility|MapAttack|Move|Organize|RankUp|RecoverEN|RecoverHP|RemoveUnit|Select|SelectTarget|SetBullet|SetMessage|SetStatus|SetStock|ShowUnitStatus|SpecialPower|Split|StopSummoning|Supply|Transform|Unit|Upgrade|UseAbility|ClearSkill|ExpUp|Fix|GetOff|IncreaseMorale|Join|Leave|LevelUp|Pilot|RecoverPlana|RecoverSP|Release|RemovePilot|ReplacePilot|Ride|SetRelation|SetSkill|Equip|Fix|Item|Release|RemoveItem|AutoTalk|Talk|End|Suspend|Ask|Confirm|Input|Question|Local|UpVar|Array|CopyArray|Global|Incr|Set|Sort|Swap|UnSet|Arc|Center|ClearObj|ClearPicture|Cls|Circle|Color|DrawOption|DrawWidth|Explode|FadeIn|FadeOut|FillColor|FillStyle|Font|PaintString|Hide|HotPoint|Line|Oval|PaintPicture|PaintString|Polygon|PSet|Redraw|Refresh|Show|Telop|WhiteIn|WhiteOut|StartBGM|StopBGM|KeepBGM|PlayMIDI|PlaySound|RenameBGM|PlayFlash|ClearFlash|ChangeMap|ChangeTerrain|ColorFilter|Monotone|Night|Noon|Sepia|Sunset|Water|Open|Close|Print|LineRead|CopyFile|RemoveFile|RenameFile|CreateFolder|RemoveFolder|Forget|FreeMemory|IntermissionCommand|Load|MakePilotList|MakeUnitList|Money|Option|QuickLoad|RenameTerm|Require|Wait)\\b"
+			}]
+		},
+		"label": {
+			"patterns": [{
+				"match": "^([^\\s]+).*:$",
+				"captures": {
+					"1": {
+						"name": "entity.name.function.src"
+					}
+				}
+			}]
+		},
+		"comment": {
+			"patterns": [{
+				"name": "comment.line.src",
+				"match": "^#.*"
+			}]
+		}
+	},
+	"scopeName": "src.eve"
+}

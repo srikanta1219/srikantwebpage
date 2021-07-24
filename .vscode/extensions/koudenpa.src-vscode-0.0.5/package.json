@@ -1,0 +1,58 @@
+{
+	"name": "src-vscode",
+	"displayName": "SRC",
+	"description": "Add support to editing SRC data and eve.",
+	"version": "0.0.5",
+	"repository": "https://github.com/7474/SRC-VSCode",
+	"publisher": "koudenpa",
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "src-eve",
+				"aliases": [
+					"SRC-Event",
+					"src-eve"
+				],
+				"extensions": [
+					".eve"
+				],
+				"configuration": "./src-eve/language-configuration.json"
+			},
+			{
+				"id": "src-data",
+				"aliases": [
+					"SRC-Data",
+					"src-data"
+				],
+				"extensions": [
+					".txt"
+				],
+				"configuration": "./src-data/language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "src-eve",
+				"scopeName": "src.eve",
+				"path": "./src-eve/syntaxes/src.tmLanguage.json"
+			},
+			{
+				"language": "src-data",
+				"scopeName": "src.txt",
+				"path": "./src-data/syntaxes/src.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "8895ec72-9e6f-4189-a055-20cb65cc897c",
+		"publisherId": "0d5c2169-124d-4ac5-8fc1-bf073261b538",
+		"publisherDisplayName": "koudenpa",
+		"installedTimestamp": 1627109326033
+	}
+}

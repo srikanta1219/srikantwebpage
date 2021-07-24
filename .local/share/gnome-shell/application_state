@@ -3,10 +3,10 @@
   <context id="">
     <application id="org.gnome.Nautilus.desktop" score="17" last-seen="1627105695"/>
     <application id="org.gnome.Shell.PortalHelper.desktop" score="1" last-seen="1626548607"/>
-    <application id="firefox.desktop" score="1454" last-seen="1627108877"/>
+    <application id="firefox.desktop" score="1464" last-seen="1627109610"/>
     <application id="org.gnome.Terminal.desktop" score="781" last-seen="1627107956"/>
     <application id="org.gnome.gedit.desktop" score="12" last-seen="1627106417"/>
-    <application id="code_code.desktop" score="249" last-seen="1627108860"/>
+    <application id="code_code.desktop" score="340" last-seen="1627109600"/>
     <application id="libreoffice-writer.desktop" score="4" last-seen="1627065213"/>
     <application id="update-manager.desktop" score="0" last-seen="1627060165"/>
     <application id="apport-gtk.desktop" score="3" last-seen="1627099940"/>

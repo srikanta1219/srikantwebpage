@@ -46,3 +46,12 @@ Auto packing the repository in background for optimum performance.
 See "git help gc" for manual housekeeping.
 > git remote add srikanta1219 https://github.com/srikanta1219/srikantwebpage.git
 > git add -A -- .
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty
+> git remote add srikanta1219 https://github.com/srikanta1219/srikantwebpage.git
+fatal: remote srikanta1219 already exists.
+> git check-ignore -v -z --stdin
+Opening repository for path='/home/shanvi' failed; ex=Canceled: Canceled
+Opening repository for path='/home/shanvi/.bash_history' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/shanvi/.bash_logout' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/shanvi/.bashrc' failed; ex=Error: spawn ENOTDIR
+Open repository: /home/shanvi

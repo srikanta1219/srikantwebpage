@@ -2,7 +2,7 @@ hub.docker.com^partitionKey=%28http%2Cdocker.com%29:HSTS	0	18832	1658642969431,1
 cdn.polyfill.io^partitionKey=%28http%2Cdigitalocean.com%29:HSTS	0	18799	1655781505229,1,1,2
 www.googletagmanager.com^partitionKey=%28http%2Cgeeksforgeeks.org%29:HSTS	0	18831	1658601687297,1,1,2
 dpm.demdex.net^partitionKey=%28http%2Cubuntu.com%29:HSTS	0	18799	1655835071007,1,1,2
-collector.githubapp.com^partitionKey=%28http%2Cgithub.com%29:HSTS	2	18832	2258247386473,1,0,2
+collector.githubapp.com^partitionKey=%28http%2Cgithub.com%29:HSTS	2	18832	2258248122373,1,0,2
 apis.google.com^partitionKey=%28http%2Cgeeksforgeeks.org%29:HSTS	0	18831	1658601680067,1,0,2
 cdn.cookielaw.org^partitionKey=%28http%2Cserverfault.com%29:HSTS	0	18799	1655775903271,1,1,2
 camo.githubusercontent.com^partitionKey=%28http%2Cgithub.com%29:HSTS	1	18831	1658604926429,1,1,2
@@ -22,7 +22,7 @@ syndication.twitter.com^partitionKey=%28http%2Cjenkins.io%29:HSTS	0	18799	225537
 vscode-auth.github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	0	18832	1642658307960,1,1,2
 www.firefox.com^partitionKey=%28http%2Cmozilla.org%29:HSTS	0	18798	1655768786421,1,0,2
 linuxize-com.disqus.com^partitionKey=%28http%2Clinuxize.com%29:HSTS	0	18832	1627102557049,1,1,2
-firefox.settings.services.mozilla.com:HSTS	3	18832	1658641973507,1,0,2
+firefox.settings.services.mozilla.com:HSTS	3	18832	1658645582508,1,0,2
 cdnjs.cloudflare.com^partitionKey=%28http%2Cgitlab.com%29:HSTS	0	18831	1642846749183,1,0,2
 services.addons.mozilla.org:HSTS	1	18831	1658597974347,1,0,2
 apis.google.com^partitionKey=%28http%2Cgoogle.com%29:HSTS	0	18799	1655784203602,1,0,2
@@ -38,8 +38,8 @@ track.hubspot.com^partitionKey=%28http%2Cliquidweb.com%29:HSTS	0	18799	165577917
 fonts.googleapis.com^partitionKey=%28http%2Cphoenixnap.com%29:HSTS	0	18799	1655833335738,1,0,2
 fonts.googleapis.com^partitionKey=%28http%2Cyoutube.com%29:HSTS	0	18799	1655774576533,1,0,2
 connect.facebook.net^partitionKey=%28http%2Cgitlab.com%29:HSTS	0	18831	1658602753431,1,1,2
-alive.github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	2	18832	1658644867881,1,0,2
-incoming.telemetry.mozilla.org:HSTS	3	18832	1642875335702,1,0,2
+alive.github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	2	18832	1658645156951,1,0,2
+incoming.telemetry.mozilla.org:HSTS	3	18832	1642877585170,1,0,2
 www.googletagmanager.com^partitionKey=%28http%2Cdigitalocean.com%29:HSTS	0	18799	1655781507123,1,1,2
 cdn.ampproject.org^partitionKey=%28http%2Clinuxize.com%29:HSTS	0	18832	1658638330761,1,1,2
 marketplace.visualstudio.com^partitionKey=%28http%2Cvisualstudio.com%29:HSTS	0	18832	1658642628719,1,1,2
@@ -93,8 +93,8 @@ www.googletagmanager.com^partitionKey=%28http%2Cvisualstudio.com%29:HSTS	0	18832
 github.com^partitionKey=%28http%2Cvisualstudio.com%29:HSTS	0	18832	1658642576822,1,1,2
 www.googletagmanager.com^partitionKey=%28http%2Cgitlab.com%29:HSTS	0	18831	1658602749335,1,1,2
 analytics.twitter.com^partitionKey=%28http%2Cdocker.com%29:HSTS	0	18799	2255396878369,1,0,2
-github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	2	18832	1658644871603,1,1,2
-api.github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	2	18832	1658644871732,1,1,2
+github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	2	18832	1658645609921,1,1,2
+api.github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	2	18832	1658645603696,1,1,2
 location.services.mozilla.com:HSTS	1	18831	1658600539111,1,1,2
 res.cloudinary.com^partitionKey=%28http%2Cubuntu.com%29:HSTS	0	18799	1624903872729,1,0,2
 cdn.jsdelivr.net^partitionKey=%28http%2Ckubernetes.io%29:HSTS	0	18799	1655835119890,1,1,2
@@ -116,10 +116,10 @@ www.google-analytics.com^partitionKey=%28http%2Cliquidweb.com%29:HSTS	0	18799	16
 www.mozilla.org^partitionKey=%28http%2Cmozilla.org%29:HSTS	0	18798	1639957581127,1,1,2
 www.googletagmanager.com^partitionKey=%28http%2Cphoenixnap.com%29:HSTS	0	18799	1655833308136,1,1,2
 forms.hsforms.com^partitionKey=%28http%2Cliquidweb.com%29:HSTS	0	18799	1655779170453,1,1,2
-github.githubassets.com^partitionKey=%28http%2Cgithub.com%29:HSTS	2	18832	1658644866025,1,0,2
+github.githubassets.com^partitionKey=%28http%2Cgithub.com%29:HSTS	2	18832	1658645126977,1,0,2
 analytics.twitter.com^partitionKey=%28http%2Cphoenixnap.com%29:HSTS	0	18799	2255435844820,1,0,2
 accounts.google.com^partitionKey=%28http%2Cyoutube.com%29:HSTS	0	18799	1655794199379,1,1,2
-avatars.githubusercontent.com^partitionKey=%28http%2Cgithub.com%29:HSTS	2	18832	1658666471674,1,0,2
+avatars.githubusercontent.com^partitionKey=%28http%2Cgithub.com%29:HSTS	2	18832	1658667210009,1,0,2
 service.force.com^partitionKey=%28http%2Cliquidweb.com%29:HSTS	0	18799	1655779171902,1,1,2
 www.google-analytics.com^partitionKey=%28http%2Clinuxize.com%29:HSTS	0	18832	1637988656147,1,1,2
 shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	2	18832	1658636069455,1,1,2
