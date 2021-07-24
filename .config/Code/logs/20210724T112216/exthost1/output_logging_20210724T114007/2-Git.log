@@ -1,0 +1,13 @@
+Validating found git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/shanvi
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+Opening repository for path='/home/shanvi' failed; ex=Canceled: Canceled
+Opening repository for path='/home/shanvi/.bash_history' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/shanvi/.bash_logout' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/shanvi/.bashrc' failed; ex=Error: spawn ENOTDIR
+Open repository: /home/shanvi
+Opening repository for path='/home/shanvi/.cache' failed; ex=Canceled: Canceled

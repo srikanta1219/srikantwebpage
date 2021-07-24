@@ -1,0 +1,55 @@
+# On Controller/Master
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+cat << EOF | sudo tee /etc/apt/sources.list.d/kubernetes.list
+deb http://apt.kubernetes.io/ kubernetes-xenial main
+EOF
+
+# Turn swap off, else kubeadm fails, but do not skip pre-flight checks
+sudo swapoff -va
+
+sudo apt-get update
+sudo apt-get install -y docker.io
+
+# Find and Install a specific version of kubernetes packages as follows if needed:
+sudo apt-cache madison kubeadm
+sudo apt-get install -y kubelet=1.7.15-00 kubeadm=1.7.15-00 kubectl=1.7.15-00 kubernetes-cni=0.5.1-00
+# or else just install the latest one using
+sudo apt-get install -y kubeadm
+
+# bootstrap kubernetes
+sudo kubeadm init --pod-network-cidr=10.244.0.0/16
+# or use a specific version and with flannel which needs pod networking specified
+sudo kubeadm init --kubernetes-version v1.7.15 --pod-network-cidr=10.244.0.0/16
+# or use a specific version using command below
+sudo kubeadm init --kubernetes-version v1.7.15
+
+# now you would get something like this at the end:
+# sudo kubeadm join --token=<token> <ip-address:port>
+# example:
+# sudo kubeadm join --token 0f32b7.c003ad92878711b5 192.168.99.10:6443
+# after you get above lines on command prompt, use following
+# commands for kubectl to work.
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+kubectl get nodes -a -o wide --show-labels
+
+# Download and install flannel CNI (Only on Master node once)
+wget https://raw.githubusercontent.com/coreos/flannel/v0.11.0/Documentation/kube-flannel.yml
+# Change the networking mode from vxlan to host-gw
+sed -i 's/vxlan/host-gw/' kube-flannel.yml 
+kubectl apply -f kube-flannel.yml
+
+# Download and install kube-router CNI if you don't want to use flannel above (Only on Master node once)
+wget https://raw.githubusercontent.com/cloudnativelabs/kube-router/master/daemonset/kubeadm-kuberouter.yaml
+# Turn off network policies
+sed -i 's/--run-firewall=true/--run-firewall=false/' kubeadm-kuberouter.yaml
+# OR Turn off network policies and allow communication from a pod that is behind a Service to its own ClusterIP:Port
+sed -i 's/--run-firewall=true/--run-firewall=false\n        - --hairpin-mode=true/' kubeadm-kuberouter.yaml
+kubectl apply -f kubeadm-kuberouter.yaml
+
+# On Nodes
+# All above steps except the kubeadm init step, use kubeadm join below instead.
+# Use the kubeadm join command and token from controller here.
+sudo kubeadm join --token=<token> <ip-address:port>
+

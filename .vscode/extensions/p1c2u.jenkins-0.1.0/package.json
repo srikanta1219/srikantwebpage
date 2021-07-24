@@ -1,0 +1,160 @@
+{
+	"name": "jenkins",
+	"displayName": "Jenkins",
+	"description": "Manage Jenkins",
+	"icon": "images/icon.png",
+	"version": "0.1.0",
+	"publisher": "p1c2u",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.31.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"jenkins",
+		"CI"
+	],
+	"bugs": {
+		"url": "https://github.com/p1c2u/vscode-jenkins/issues",
+		"email": "maciag.artur@gmail.com"
+	},
+	"homepage": "https://github.com/p1c2u/vscode-jenkins",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/p1c2u/vscode-jenkins.git"
+	},
+	"activationEvents": [
+		"onView:jenkins.views.system",
+		"onView:jenkins.views.nodes",
+		"onView:jenkins.views.views",
+		"onDebugInitialConfigurations"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"views": {
+			"jenkins": [
+				{
+					"id": "jenkins.views.system",
+					"name": "System",
+					"when": "config.jenkins.views.system.enabled"
+				},
+				{
+					"id": "jenkins.views.nodes",
+					"name": "Nodes",
+					"when": "config.jenkins.views.nodes.enabled"
+				},
+				{
+					"id": "jenkins.views.views",
+					"name": "Views",
+					"when": "config.jenkins.views.views.enabled"
+				}
+			]
+		},
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "jenkins",
+					"title": "Jenkins",
+					"icon": "images/jenkins.svg"
+				}
+			]
+		},
+		"commands": [
+			{
+				"command": "jenkins.openJobUrlToClipboard",
+				"title": "Open in Browser",
+				"category": "Jenkins"
+			},
+			{
+				"command": "jenkins.openViewUrlToClipboard",
+				"title": "Open in Browser",
+				"category": "Jenkins"
+			},
+			{
+				"command": "jenkins.copyJobUrlToClipboard",
+				"title": "Copy Url",
+				"category": "Jenkins"
+			},
+			{
+				"command": "jenkins.copyViewUrlToClipboard",
+				"title": "Copy Url",
+				"category": "Jenkins"
+			}
+		],
+		"menus": {
+			"view/item/context": [
+				{
+					"command": "jenkins.openJobUrlToClipboard",
+					"when": "view =~ /^jenkins\\.views/ && viewItem == jenkins:job",
+					"group": "1_jenkins@0"
+				},
+				{
+					"command": "jenkins.openViewUrlToClipboard",
+					"when": "view =~ /^jenkins\\.views/ && viewItem == jenkins:view",
+					"group": "1_jenkins@0"
+				},
+				{
+					"command": "jenkins.copyJobUrlToClipboard",
+					"when": "view =~ /^jenkins\\.views/ && viewItem == jenkins:job",
+					"group": "2_jenkins@1"
+				},
+				{
+					"command": "jenkins.copyViewUrlToClipboard",
+					"when": "view =~ /^jenkins\\.views/ && viewItem == jenkins:view",
+					"group": "2_jenkins@0"
+				}
+			]
+		},
+		"configuration": {
+			"type": "object",
+			"title": "Jenkins configuration",
+			"properties": {
+				"jenkins.views.system.enabled": {
+					"type": "boolean",
+					"default": false,
+					"description": "Specifies whether to show the _System_ view."
+				},
+				"jenkins.views.nodes.enabled": {
+					"type": "boolean",
+					"default": true,
+					"description": "Specifies whether to show the _Nodes_ view."
+				},
+				"jenkins.views.views.enabled": {
+					"type": "boolean",
+					"default": true,
+					"description": "Specifies whether to show the _Views_ view."
+				},
+				"jenkins.url": {
+					"type": "string",
+					"description": "Jenkins instance URL. Pass username and token in URL for authentication."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run build",
+		"build": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run build && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.2.1",
+		"vscode": "^1.1.30",
+		"@types/node": "^7.0.43",
+		"@types/mocha": "^2.2.42"
+	},
+	"dependencies": {
+		"applicationinsights": "^1.0.5",
+		"yaml-config-loader": "^2.0.1",
+		"jenkins": "0.23.0"
+	},
+	"__metadata": {
+		"id": "5f99f39a-0012-4575-8305-2eecd44f314c",
+		"publisherId": "d69fff22-d533-4747-9a9d-56fbaa6dfe56",
+		"publisherDisplayName": "p1c2u",
+		"installedTimestamp": 1627106819576
+	}
+}

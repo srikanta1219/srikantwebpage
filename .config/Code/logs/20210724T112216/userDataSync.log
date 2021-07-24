@@ -1,0 +1,75 @@
+[2021-07-24 11:22:20.892] [settingssync] [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+[2021-07-24 11:22:20.892] [settingssync] [info] Auto Sync is disabled.
+[2021-07-24 11:39:51.374] [settingssync] [info] Did reset the local sync state.
+[2021-07-24 11:39:53.536] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-07-24 11:39:53.551] [settingssync] [info] Settings: Updated last synchronized settings
+[2021-07-24 11:39:53.561] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-07-24 11:39:53.596] [settingssync] [info] Keybindings: Updated last synchronized keybindings
+[2021-07-24 11:39:53.602] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-07-24 11:39:53.610] [settingssync] [info] Snippets: Updated last synchronized snippets
+[2021-07-24 11:39:54.454] [settingssync] [info] GlobalState: Updated remote ui state
+[2021-07-24 11:39:54.463] [settingssync] [info] GlobalState: Updated last synchronized ui state
+[2021-07-24 11:39:54.744] [settingssync] [info] Extensions: Updated remote extensions. Added: ["vscode.bat","vscode.clojure","vscode.coffeescript","vscode.configuration-editing","vscode.cpp","vscode.csharp","vscode.css","vscode.css-language-features","vscode.dart","vscode.debug-auto-launch","vscode.debug-server-ready","vscode.docker","vscode.emmet","vscode.extension-editing","vscode.fsharp","vscode.git","vscode.github","vscode.github-authentication","vscode.go","vscode.groovy","vscode.grunt","vscode.gulp","vscode.handlebars","vscode.hlsl","vscode.html","vscode.html-language-features","vscode.image-preview","vscode.ini","vscode.jake","vscode.java","vscode.javascript","vscode.json","vscode.json-language-features","vscode.julia","vscode.less","vscode.log","vscode.lua","vscode.make","vscode.markdown","vscode.markdown-language-features","vscode.markdown-math","vscode.merge-conflict","vscode.microsoft-authentication","ms-vscode.js-debug","ms-vscode.js-debug-companion","ms-vscode.node-debug","ms-vscode.node-debug2","ms-vscode.references-view","ms-vscode.vscode-js-profile-table","vscode.npm","vscode.objective-c","vscode.perl","vscode.php","vscode.php-language-features","vscode.powershell","vscode.pug","vscode.python","vscode.r","vscode.razor","vscode.ruby","vscode.rust","vscode.scss","vscode.search-result","vscode.shaderlab","vscode.shellscript","vscode.simple-browser","vscode.sql","vscode.swift","vscode.testing-editor-contributions","vscode.theme-abyss","vscode.theme-defaults","vscode.theme-kimbie-dark","vscode.theme-monokai","vscode.theme-monokai-dimmed","vscode.theme-quietlight","vscode.theme-red","vscode.vscode-theme-seti","vscode.theme-solarized-dark","vscode.theme-solarized-light","vscode.theme-tomorrow-night-blue","vscode.typescript","vscode.typescript-language-features","vscode.vb","vscode.xml","vscode.yaml","ms-azuretools.vscode-docker","p1c2u.jenkins"].
+[2021-07-24 11:39:54.773] [settingssync] [info] Extensions: Updated last synchronized extensions.
+[2021-07-24 11:39:54.842] [settingssync] [info] Auto Sync: Started
+[2021-07-24 11:39:54.843] [settingssync] [info] Auto Sync: Triggered by Interval
+[2021-07-24 11:39:55.112] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-07-24 11:39:55.127] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-07-24 11:39:55.129] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-07-24 11:39:55.221] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-07-24 11:39:55.627] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-07-24 11:39:55.634] [settingssync] [info] Sync done. Took 545ms
+[2021-07-24 11:40:05.366] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-07-24 11:40:05.516] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-07-24 11:40:05.523] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-07-24 11:40:05.531] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-07-24 11:40:05.791] [settingssync] [info] GlobalState: Updated remote ui state
+[2021-07-24 11:40:05.807] [settingssync] [info] GlobalState: Updated last synchronized ui state
+[2021-07-24 11:40:06.308] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-07-24 11:40:06.327] [settingssync] [info] Sync done. Took 812ms
+[2021-07-24 11:40:08.671] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-07-24 11:40:08.921] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-07-24 11:40:08.924] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-07-24 11:40:08.936] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-07-24 11:40:10.335] [settingssync] [info] GlobalState: Updated remote ui state
+[2021-07-24 11:40:10.345] [settingssync] [info] GlobalState: Updated last synchronized ui state
+[2021-07-24 11:40:11.230] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-07-24 11:40:11.237] [settingssync] [info] Sync done. Took 2317ms
+[2021-07-24 11:40:11.254] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-07-24 11:40:11.398] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-07-24 11:40:11.405] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-07-24 11:40:11.432] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-07-24 11:40:11.569] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-07-24 11:40:11.886] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-07-24 11:40:11.889] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-07-24 11:40:11.892] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-07-24 11:40:11.901] [settingssync] [info] GlobalState: Skipped synchronizing globalstate as it is running already.
+[2021-07-24 11:40:12.402] [settingssync] [info] GlobalState: Updated remote ui state
+[2021-07-24 11:40:12.513] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-07-24 11:40:12.519] [settingssync] [info] Sync done. Took 634ms
+[2021-07-24 11:40:12.522] [settingssync] [info] GlobalState: Updated last synchronized ui state
+[2021-07-24 11:40:13.225] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-07-24 11:40:13.246] [settingssync] [info] Sync done. Took 1851ms
+[2021-07-24 11:40:26.526] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-07-24 11:40:28.112] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-07-24 11:40:28.127] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-07-24 11:40:28.152] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-07-24 11:40:29.071] [settingssync] [info] GlobalState: Updated remote ui state
+[2021-07-24 11:40:29.089] [settingssync] [info] GlobalState: Updated last synchronized ui state
+[2021-07-24 11:40:29.501] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-07-24 11:40:29.513] [settingssync] [info] Sync done. Took 1418ms
+[2021-07-24 11:40:58.467] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-07-24 11:40:58.898] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-07-24 11:40:59.167] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-07-24 11:40:59.223] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-07-24 11:40:59.330] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-07-24 11:41:00.417] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-07-24 11:41:00.431] [settingssync] [info] Sync done. Took 1734ms
+[2021-07-24 11:41:04.385] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-07-24 11:41:04.583] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-07-24 11:41:04.617] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-07-24 11:41:04.636] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-07-24 11:41:05.139] [settingssync] [info] GlobalState: Updated remote ui state
+[2021-07-24 11:41:05.149] [settingssync] [info] GlobalState: Updated last synchronized ui state
+[2021-07-24 11:41:05.734] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-07-24 11:41:05.741] [settingssync] [info] Sync done. Took 1169ms

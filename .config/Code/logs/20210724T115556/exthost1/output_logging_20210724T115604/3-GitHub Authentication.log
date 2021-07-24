@@ -1,0 +1,5 @@
+[Trace  - 06:56:05.426] Token acquired from secret storage.
+[Trace  - 06:56:05.426] Read the following session from the keychain with the following scopes: repo,workflow
+[Info  - 06:56:05.426] Getting user info...
+[Info  - 06:56:06.7] Got account info!
+[Info  - 06:56:06.7] Verified sesion with the following scopes: repo,workflow

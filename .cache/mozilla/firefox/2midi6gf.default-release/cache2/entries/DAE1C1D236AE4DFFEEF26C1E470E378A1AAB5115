@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Nano/Basics Guide - Gentoo Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"9fa6e5c387d5063f5b315f0e","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Nano/Basics_Guide","wgTitle":"Nano/Basics Guide","wgCurRevisionId":810296,"wgRevisionId":810296,"wgArticleId":31431,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Nano/Basics_Guide","wgRelevantArticleId":31431,"wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgULSCurrentAutonym":"English","wgPageFormsTargetName":null,
+"wgPageFormsAutocompleteValues":[],"wgPageFormsAutocompleteOnAllChars":!1,"wgPageFormsFieldProperties":[],"wgPageFormsCargoFields":[],"wgPageFormsDependentFields":[],"wgPageFormsCalendarValues":[],"wgPageFormsCalendarParams":[],"wgPageFormsCalendarHTML":null,"wgPageFormsGridValues":[],"wgPageFormsGridParams":[],"wgPageFormsContLangYes":null,"wgPageFormsContLangNo":null,"wgPageFormsContLangMonths":[],"wgPageFormsHeightForMinimizingInstances":800,"wgPageFormsShowOnSelect":[],"wgPageFormsScriptPath":"/extensions/PageForms","edgValues":null,"wgPageFormsEDSettings":null,"wgAmericanDates":!1,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgULSPosition":"personal","wgEditSubmitButtonLabelPublish":!1};RLSTATE={"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","mediawiki.toc.styles":"ready","ext.uls.pt":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.smw.style":
+"ready","ext.smw.tooltip.styles":"ready","mediawiki.skinning.interface":"ready","mediawiki.skinning.content.externallinks":"ready","skins.tyrian.styles":"ready","skins.tyrian.icons":"ready"};RLPAGEMODULES=["ext.smw.style","ext.smw.tooltips","ext.gentooPackages","smw.entityexaminer","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.smw.style%7Cext.smw.tooltip.styles&amp;only=styles&amp;skin=tyrian"/>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.uls.pt%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.skinning.content.externallinks%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.tyrian.icons%2Cstyles&amp;only=styles&amp;skin=tyrian"/>
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=tyrian"></script>
+<link rel="stylesheet" href="https://assets.gentoo.org/tyrian/bootstrap.min.css"/><link rel="stylesheet" href="https://assets.gentoo.org/tyrian/tyrian.min.css"/><style>#mw-indicator-mw-helplink {display:none;}</style>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=tyrian"/>
+<meta name="generator" content="MediaWiki 1.35.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="theme-color" content="#54487a"/>
+<link rel="alternate" type="application/rdf+xml" title="Nano/Basics Guide" href="/index.php?title=Special:ExportRDF/Nano/Basics_Guide&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="https://www.gentoo.org/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Gentoo Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//wiki.gentoo.org/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<!--[if lt IE 9]><script src="/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Nano_Basics_Guide rootpage-Nano skin-tyrian action-view">	<div class="mw-jump sr-only">
+		Jump to:		<a href="#top">content</a>
+	</div>
+	<header>
+		<div class="site-title">
+			<div class="container">
+				<div class="row">
+					<div class="site-title-buttons">
+						<div class="btn-group btn-group-sm">
+							<a href="https://get.gentoo.org/" role="button" class="btn get-gentoo"><span class="fa fa-fw fa-download"></span> <strong>Get Gentoo!</strong></a>
+							<div class="btn-group btn-group-sm">
+								<a class="btn gentoo-org-sites dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">
+									<span class="fa fa-fw fa-map-o"></span> <span class="hidden-xs">gentoo.org sites</span> <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu dropdown-menu-right">
+									<li><a href="https://www.gentoo.org/" title="Main Gentoo website"><span class="fa fa-home fa-fw"></span> gentoo.org</a></li>
+									<li><a href="https://wiki.gentoo.org/" title="Find and contribute documentation"><span class="fa fa-file-text-o fa-fw"></span> Wiki</a></li>
+									<li><a href="https://bugs.gentoo.org/" title="Report issues and find common issues"><span class="fa fa-bug fa-fw"></span> Bugs</a></li>
+									<li><a href="https://forums.gentoo.org/" title="Discuss with the community"><span class="fa fa-comments-o fa-fw"></span> Forums</a></li>
+									<li><a href="https://packages.gentoo.org/" title="Find software for your Gentoo"><span class="fa fa-hdd-o fa-fw"></span> Packages</a></li>
+									<li class="divider"></li>
+									<li><a href="https://planet.gentoo.org/" title="Find out what's going on in the developer community"><span class="fa fa-rss fa-fw"></span> Planet</a></li>
+									<li><a href="https://archives.gentoo.org/" title="Read up on past discussions"><span class="fa fa-archive fa-fw"></span> Archives</a></li>
+									<li><a href="https://gitweb.gentoo.org/" title="Browse our source code in Gitweb"><span class="fa fa-code fa-fw"></span> Gitweb</a></li>
+									<li><a href="https://sources.gentoo.org/" title="Browse our source code in CVS"><span class="fa fa-code fa-fw"></span> CVS sources</a></li>
+									<li class="divider"></li>
+									<li><a href="https://infra-status.gentoo.org/" title="Get updates on the services provided by Gentoo"><span class="fa fa-server fa-fw"></span> Infra Status</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="logo">
+						<a href="/" title="Back to the homepage" class="site-logo"><object data="https://assets.gentoo.org/tyrian/site-logo.svg" type="image/svg+xml">
+							<img src="https://assets.gentoo.org/tyrian/site-logo.png" alt="Gentoo Linux Logo">
+						</object></a>
+						<span class="site-label">Wiki</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="tyrian-navbar" role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse navbar-main-collapse">
+						<ul class="nav navbar-nav">
+							<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-help"><a href="/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>			<li class="dropdown">
+				<a href="/wiki/Gentoo_Wiki:Menu-Gentoo" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Gentoo <span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu"><li id="n-Gentoo-Projects"><a href="/wiki/Project:Gentoo">Gentoo Projects</a></li>				</ul>
+			</li>			<li class="dropdown">
+				<a href="/wiki/Gentoo_Wiki:Menu-Documentation" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Documentation <span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu"><li id="n-Gentoo-Handbook"><a href="/wiki/Handbook:Main_Page">Gentoo Handbook</a></li><li id="n-Gentoo-FAQ"><a href="/wiki/FAQ">Gentoo FAQ</a></li><li id="n-Featured-Documents"><a href="/wiki/Project:Documentation/Overview">Featured Documents</a></li><li role="presentation" class="divider"></li><li role="presentation" class="dropdown-header">Topics</li><li id="n-Core-system"><a href="/wiki/Category:Core_system">Core system</a></li><li id="n-Hardware"><a href="/wiki/Category:Hardware">Hardware</a></li><li id="n-Software"><a href="/wiki/Category:Software">Software</a></li><li id="n-Desktop"><a href="/wiki/Category:Desktop">Desktop</a></li><li id="n-Server-.26-Security"><a href="/wiki/Category:Server_and_Security">Server &amp; Security</a></li><li id="n-Project-.26-Community"><a href="/wiki/Category:Project_and_Community">Project &amp; Community</a></li>				</ul>
+			</li>						</ul>
+						<ul class="nav navbar-nav navbar-right hidden-xs">
+									<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-cog"></i> Tools <span class="caret"></span></a>
+			<ul class="dropdown-menu" role="menu">
+				<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Nano/Basics_Guide" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Nano/Basics_Guide" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=Nano/Basics_Guide&amp;oldid=810296" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=Nano/Basics_Guide&amp;action=info" title="More information about this page">Page information</a></li><li id="t-smwbrowselink"><a href="/wiki/Special:Browse/:Nano-2FBasics-5FGuide" rel="search">Browse properties</a></li><li id="t-smwbrowselink"><a href="/wiki/Special:Browse/:Nano-2FBasics-5FGuide" rel="search">Browse properties</a></li>			</ul>
+		</li>
+			<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+				<span class="fa fa-user" aria-label="Personal tools"></span>
+				User				<span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu" role="menu">
+				<li id="pt-createaccount"><a href="/index.php?title=Special:CreateAccount&amp;returnto=Nano%2FBasics+Guide" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Nano%2FBasics+Guide" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>			</ul>
+		</li>
+								</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		
+		<nav class="navbar navbar-grey navbar-stick" id="wiki-actions" role="navigation">
+			<div class="container"><div class="row">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#gw-toolbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="gw-toolbar">
+					<ul class="nav navbar-nav">
+					<li id="ca-nstab-main" class="selected active"><a href="/wiki/Nano/Basics_Guide" title="View the content page [c]" accesskey="c">Page</a></li><li id="ca-talk" class="new"><a href="/index.php?title=Talk:Nano/Basics_Guide&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t">Discussion</a></li>					</ul>
+							<form action="/index.php" id="searchform" class="navbar-form navbar-right" role="search">
+			<input type='hidden' name="title" value="Special:Search"/>
+
+				<div class="input-group">
+					<input type="search" name="search" placeholder="Search" title="Search Gentoo Wiki [f]" accesskey="f" id="searchInput" class="form-control"/>					<div class="input-group-btn"><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchGoButton" class="searchButton btn btn-default"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton btn btn-default"/></div>
+				</div>
+		</form>
+						<ul class="nav navbar-nav navbar-right hidden-xs">
+					<li id="ca-viewsource"><a href="/index.php?title=Nano/Basics_Guide&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li><li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">more <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+					<li id="ca-history"><a href="/index.php?title=Nano/Basics_Guide&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>							</ul>
+						</li>
+					</ul>
+				</div>
+			</div></div>
+		</nav>
+		</header>
+	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div id="content" class="mw-body" role="main">
+						<a id="top"></a>
+						
+						<h1 id="firstHeading" class="first-header" lang="en">
+							<span dir="auto">Nano/Basics Guide</span>
+						</h1>
+
+						<div id="bodyContent" class="mw-body-content">
+							<div id="siteSub">From Gentoo Wiki</div>
+							<div id="contentSub">
+								<span class="subpages">&lt; <a href="/wiki/Nano" title="Nano">Nano</a></span>							</div>
+												                <div id="jump-to-nav"></div>
+					                <a class="mw-jump-link" href="#mw-head">Jump to:navigation</a>
+					                <a class="mw-jump-link" href="#searchInput">Jump to:search</a>
+
+							<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p>This guide covers basic operations in nano, and is meant to be very concise. For more information about nano check out: <a rel="nofollow" class="external text" href="https://www.nano-editor.org">https://www.nano-editor.org</a>.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Nano_basics"><span class="tocnumber">1</span> <span class="toctext">Nano basics</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Opening_and_creating_files"><span class="tocnumber">1.1</span> <span class="toctext">Opening and creating files</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Saving_and_exiting"><span class="tocnumber">1.2</span> <span class="toctext">Saving and exiting</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Cutting_and_pasting"><span class="tocnumber">1.3</span> <span class="toctext">Cutting and pasting</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Searching_for_text"><span class="tocnumber">1.4</span> <span class="toctext">Searching for text</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#More_options"><span class="tocnumber">1.5</span> <span class="toctext">More options</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Wrap_up"><span class="tocnumber">1.6</span> <span class="toctext">Wrap up</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Nano_basics">Nano basics</span></h2>
+<h3><span class="mw-headline" id="Opening_and_creating_files">Opening and creating files</span></h3>
+<p>For opening and creating files type: 
+</p>
+<div class="cmd-box"><div><code style="color: #ef2929; font-weight: bold;">root #</code><span class="tripleclick-separator"></span><code>nano filename</code></div></div>
+<p>Nano is a modeless editor so you can start typing immediately to insert text. If you are editing a configuration file like <span style="font-family: monospace; font-size: 95%">/etc/fstab</span> use the <code>-w</code> switch to disable wrapping on long lines as it might render the configuration file unparseable by whatever tools depend on it. For example: 
+</p>
+<div class="cmd-box"><div><code style="color: #ef2929; font-weight: bold;">root #</code><span class="tripleclick-separator"></span><code>nano -w /etc/fstab</code></div></div>
+<div class="alert alert-danger gw-box" style="padding-top: 8px; padding-bottom: 8px;"><strong><i class="fa fa-exclamation-triangle"></i> Warning</strong><br />It is very, very important that you use the <code>-w</code> switch when opening a config file. Failure to do so may keep your system from booting or cause other bad things.</div>
+<h3><span class="mw-headline" id="Saving_and_exiting">Saving and exiting</span></h3>
+<p>If you want to save the changes you've made, press <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Ctrl</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">O</kbd>. To exit nano, type <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Ctrl</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">X</kbd>. If you ask nano to exit from a modified file, it will ask you if you want to save it. Just press <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">N</kbd> in case you don't, or <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Y</kbd> in case you do. It will then ask you for a filename. Just type it in and press <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Enter</kbd>. 
+</p><p>If you accidentally confirmed that you want to save the file but you actually don't, you can always cancel by pressing <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Ctrl</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">C</kbd> when you're prompted for a filename.
+</p>
+<h3><span class="mw-headline" id="Cutting_and_pasting">Cutting and pasting</span></h3>
+<p>To cut a single line, you use <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Ctrl</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">K</kbd> (hold down <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Ctrl</kbd> and then press <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">K</kbd>). The line disappears. To paste it, you simply move the cursor to where you want to paste it and punch <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Ctrl</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">U</kbd>. The line reappears. To move multiple lines, simply cut them with several <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Ctrl</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">K</kbd> in a row, then paste them with a single <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Ctrl</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">U</kbd>. The whole paragraph appears wherever you want it. 
+</p><p>If you need a little more fine-grained control, then you have to mark the text. Move the cursor to the beginning of the text you want to cut. Hit <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Ctrl</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">6</kbd> (or <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Alt</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">A</kbd>). Now move your cursor to the end of the text you want to cut: the marked text gets highlighted. If you need to cancel your text marking, simply hit <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Ctrl</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">6</kbd> again. Press <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Ctrl</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">K</kbd> to cut the marked text. Use <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Ctrl</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">U</kbd> to paste it.
+</p>
+<h3><span class="mw-headline" id="Searching_for_text">Searching for text</span></h3>
+<p>Searching for a string is easy as long as you think <i>"WhereIs"</i> instead of <i>"Search"</i>. Simply hit <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Ctrl</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">W</kbd>, type in your search string, and press <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Enter</kbd>. To search for the same string again, hit <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Alt</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">W</kbd>. 
+</p>
+<div class="alert alert-info gw-box" style="padding-top: 8px; padding-bottom: 8px;"><strong><i class="fa fa-sticky-note-o fa-rotate-180"></i> Note</strong><br />In nano's help texts the <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Ctrl</kbd> is represented by a caret (<code>^</code>), so <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Ctrl</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">W</kbd> is shown as <code>^W</code>, and so on. The <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Alt</kbd> key is represented by an <code>M</code> (from "Meta"), so <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">Alt</kbd> + <kbd style="color: black; font-size: small; border: 0.2em solid; border-color: #DDD #BBB #BBB #DDD; padding: 0 0.4em; background: #EEE; white-space: nowrap;">W</kbd> is shown as <code>M-W</code>.</div>
+<h3><span class="mw-headline" id="More_options">More options</span></h3>
+<p>If you're interested in tweaking nano, be sure to read <span style="font-family: monospace; font-size: 95%">/etc/nanorc</span>. 
+</p>
+<h3><span class="mw-headline" id="Wrap_up">Wrap up</span></h3>
+<p>Thanks to kiyose and quazion from <span style="font-family: monospace; font-size: 95%;"><a rel="nofollow" class="external text" href="ircs://irc.libera.chat/#gentoo">#gentoo</a></span> (<span style="font-family: monospace; font-size: 95%;"><a rel="nofollow" class="external text" href="https://web.libera.chat/#gentoo">webchat</a></span>). 
+</p>
+<hr /><p><small>This page is based on a document formerly found on our main website <a rel="nofollow" class="external text" href="https://www.gentoo.org/">gentoo.org</a>. <br />The following people contributed to the original document: <b>Sherman Boyd</b><br /><span style="color: #555;">They are listed here because wiki history does not allow for any external attribution. If you edit the wiki article, please do <b>not</b> add yourself here; your contributions are recorded on each article's associated history page.</span></small></p>
+<!-- 
+NewPP limit report
+Cached time: 20210621021046
+Cache expiry: 86400
+Dynamic content: false
+Complications: []
+[SMW] Inâ€text annotation parser time: 0.004 seconds
+CPU time usage: 0.057 seconds
+Real time usage: 0.074 seconds
+Preprocessor visited node count: 692/1000000
+Postâ€expand include size: 20162/2097152 bytes
+Template argument size: 3265/2097152 bytes
+Highest expansion depth: 11/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip postâ€expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   42.566      1 -total
+ 28.41%   12.094      2 Template:RootCmd
+ 19.21%    8.175      2 Template:GenericCmd
+ 15.80%    6.727      1 Template:Note
+ 15.17%    6.455     40 Template:Key
+ 14.10%    6.002      1 Template:Warning
+  9.34%    3.975      1 Template:Note/core
+  7.69%    3.274      1 Template:Warning/core
+  7.62%    3.244      2 Template:GenericCmd/Line
+  7.17%    3.052      1 Template:Migrated
+-->
+
+<!-- Saved in parser cache with key gentoo?hwiki:pcache:idhash:31431-0!canonical and timestamp 20210621021046 and revision id 810296
+ -->
+</div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://wiki.gentoo.org/index.php?title=Nano/Basics_Guide&amp;oldid=810296">https://wiki.gentoo.org/index.php?title=Nano/Basics_Guide&amp;oldid=810296</a>"</div>
+<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-offset-2 col-md-7">
+											<div class="spacer"></div>
+						<ul id="f-list">
+							<li id="lastmod>"> This page was last edited on 16 June 2019, at 04:05.</li><li id="privacy>"><a href="/wiki/Gentoo_Wiki:Privacy_policy" class="mw-redirect" title="Gentoo Wiki:Privacy policy">Privacy policy</a></li><li id="about>"><a href="/wiki/Gentoo_Wiki:About" title="Gentoo Wiki:About">About Gentoo Wiki</a></li><li id="disclaimer>"><a href="/wiki/Gentoo_Wiki:General_disclaimer" title="Gentoo Wiki:General disclaimer">Disclaimers</a></li>						</ul>
+									</div>
+				<div class="col-xs-12 col-md-3">
+					<!-- No questions or comments, the Wiki has enough information on how to contact us. -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3 col-md-2">
+					<ul class="footerlinks three-icons">
+						<li><a href="https://twitter.com/gentoo" title="@Gentoo on Twitter"><span class="fa fa-twitter fa-fw"></span></a></li>
+						<li><a href="https://www.facebook.com/gentoo.org" title="Gentoo on Facebook"><span class="fa fa-facebook fa-fw"></span></a></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="col-xs-9 col-md-9">
+					<strong>&copy; 2001&ndash;2021 Gentoo Foundation, Inc.</strong><br />
+					<small>
+						Gentoo is a trademark of the Gentoo Foundation, Inc.
+						The contents of this document, unless otherwise expressly stated, are licensed under the
+						<a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC-BY-SA-3.0</a> license.
+						The <a href="https://www.gentoo.org/inside-gentoo/foundation/name-logo-guidelines.html">Gentoo Name and Logo Usage Guidelines</a> apply.
+					</small>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+<script>
+function defer(method) {
+    if (window.jQuery) {
+        method();
+    } else {
+        setTimeout(function() { defer(method) }, 50);
+    }
+}
+defer(function() { mw.loader.load( 'https://assets.gentoo.org/tyrian/bootstrap.min.js'); });
+</script>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0.004},"limitreport":{"cputime":"0.057","walltime":"0.074","ppvisitednodes":{"value":692,"limit":1000000},"postexpandincludesize":{"value":20162,"limit":2097152},"templateargumentsize":{"value":3265,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%   42.566      1 -total"," 28.41%   12.094      2 Template:RootCmd"," 19.21%    8.175      2 Template:GenericCmd"," 15.80%    6.727      1 Template:Note"," 15.17%    6.455     40 Template:Key"," 14.10%    6.002      1 Template:Warning","  9.34%    3.975      1 Template:Note/core","  7.69%    3.274      1 Template:Warning/core","  7.62%    3.244      2 Template:GenericCmd/Line","  7.17%    3.052      1 Template:Migrated"]},"cachereport":{"timestamp":"20210621021046","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":87});});</script></body></html>ÞýØƒŸ      `Ø™Z`Ø™ZC ñD`ÐÛö   W    O^partitionKey=%28https%2Cgentoo.org%29,:https://wiki.gentoo.org/wiki/Nano/Basics_Guide necko:classified 1 strongly-framed 1 security-info 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 request-method GET request-Accept-Encoding gzip, deflate, br request-Accept-Language en-US,en;q=0.5 response-head HTTP/2 200 OK
+server: nginx
+date: Mon, 21 Jun 2021 18:35:33 GMT
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+content-language: en
+vary: Accept-Encoding, Accept-Language, Cookie, Authorization
+cache-control: s-maxage=18000, must-revalidate, max-age=0
+last-modified: Mon, 21 Jun 2021 18:35:33 GMT
+x-request-id: 9fa6e5c387d5063f5b315f0e
+x-clacks-overhead: Terry Pratchett, Noirin Trouble Pluinceid, Dan Kaminsky
+permissions-policy: interest-cohort=()
+referrer-policy: strict-origin-when-cross-origin
+strict-transport-security: max-age=31536000
+X-Firefox-Spdy: h2
+ original-response-headers server: nginx
+date: Mon, 21 Jun 2021 18:35:33 GMT
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+content-language: en
+vary: Accept-Encoding, Accept-Language, Cookie, Authorization
+cache-control: s-maxage=18000, must-revalidate, max-age=0
+last-modified: Mon, 21 Jun 2021 18:35:33 GMT
+x-request-id: 9fa6e5c387d5063f5b315f0e
+x-clacks-overhead: Terry Pratchett, Noirin Trouble Pluinceid, Dan Kaminsky
+permissions-policy: interest-cohort=()
+referrer-policy: strict-origin-when-cross-origin
+strict-transport-security: max-age=31536000
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0 net-response-time-onstart 2416 net-response-time-onstop 2771    

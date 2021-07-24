@@ -1,0 +1,24 @@
+Validating found git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/shanvi
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/shanvi/index.html
+fatal: your current branch 'master' does not have any commits yet
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/shanvi/Desktop/srikantWeb/index.html
+fatal: your current branch 'master' does not have any commits yet
+> git remote add https-//github.com/srikanta1219/srikantwebpage.git https://github.com/srikanta1219/srikantwebpage.git
+fatal: 'https-//github.com/srikanta1219/srikantwebpage.git' is not a valid remote name
+> git add -A -- .
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/shanvi/Desktop/srikantWeb/index.html
+fatal: your current branch 'master' does not have any commits yet
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/shanvi/Desktop/srikantWeb/index.html
+fatal: your current branch 'master' does not have any commits yet

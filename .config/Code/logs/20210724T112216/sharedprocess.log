@@ -1,0 +1,17 @@
+[2021-07-24 11:22:26.411] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2021-07-24 11:22:30.429] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-07-24 11:22:50.429] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-07-24 11:22:50.430] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-07-24 11:23:00.435] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-07-24 11:31:43.042] [sharedprocess] [info] Installing extension: ms-azuretools.vscode-docker
+[2021-07-24 11:33:24.473] [sharedprocess] [info] Downloaded extension: ms-azuretools.vscode-docker /home/shanvi/.config/Code/CachedExtensionVSIXs/ms-azuretools.vscode-docker-1.15.0
+[2021-07-24 11:33:26.414] [sharedprocess] [info] Extracted extension to /home/shanvi/.vscode/extensions/.b98ee869-946e-41d4-aa06-bef5924318d0: ms-azuretools.vscode-docker
+[2021-07-24 11:33:26.583] [sharedprocess] [info] Renamed to /home/shanvi/.vscode/extensions/ms-azuretools.vscode-docker-1.15.0
+[2021-07-24 11:33:26.584] [sharedprocess] [info] Installation completed. ms-azuretools.vscode-docker
+[2021-07-24 11:33:26.621] [sharedprocess] [info] Extensions installed successfully: ms-azuretools.vscode-docker
+[2021-07-24 11:36:44.731] [sharedprocess] [info] Installing extension: p1c2u.jenkins
+[2021-07-24 11:36:56.656] [sharedprocess] [info] Downloaded extension: p1c2u.jenkins /home/shanvi/.config/Code/CachedExtensionVSIXs/p1c2u.jenkins-0.1.0
+[2021-07-24 11:36:59.562] [sharedprocess] [info] Extracted extension to /home/shanvi/.vscode/extensions/.b06b3ecf-682c-4603-97eb-db35c6675be4: p1c2u.jenkins
+[2021-07-24 11:36:59.594] [sharedprocess] [info] Renamed to /home/shanvi/.vscode/extensions/p1c2u.jenkins-0.1.0
+[2021-07-24 11:36:59.595] [sharedprocess] [info] Installation completed. p1c2u.jenkins
+[2021-07-24 11:36:59.613] [sharedprocess] [info] Extensions installed successfully: p1c2u.jenkins
